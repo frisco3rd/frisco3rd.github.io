@@ -1,0 +1,43 @@
+html,body {
+    height:100%;
+     /*height of fixed navbar*/
+}
+#megamenu{
+    background: url(https://i.ibb.co/88sN6Mh/CT-Skill-Test-v3.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100vh;
+  display:block;
+}
+#secondmenu{
+    background: url(https://i.ibb.co/myLnNnN/img2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100vh;
+}
+
+.navbar { 
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;
+  background-color:transparent;
+}
+
+.affix {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+}
+
+section {
+    min-height:calc(100% - 70px);
+}
+
