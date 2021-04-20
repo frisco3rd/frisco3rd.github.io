@@ -40,4 +40,12 @@ html,body {
 section {
     min-height:calc(100% - 70px);
 }
-
+.blockBg {
+  background-color: white;
+  width: fit-content;
+  padding: 0px 5px 0 5px;
+}
+.blockText {
+color: black;
+display:inline-block;
+}
